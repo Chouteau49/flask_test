@@ -1,0 +1,33 @@
+# Dossiers et fichiers spécifiques à Flask
+/__pycache__/
+/*.pyc
+/*.pyo
+/*.pyd
+
+# Dossier de fichiers statiques générés par Flask
+/static/
+
+# Dossier de fichiers téléchargés
+/upload_folder/
+
+# Fichiers de configuration spécifiques à l'environnement local
+.env
+
+# Fichiers de base de données SQLite (à ajouter si vous utilisez SQLite)
+*.db
+
+# Fichiers d'environnement virtuel Python (à ajouter si vous utilisez un environnement virtuel)
+.venv/
+
+# Fichiers de cache
+__pycache__/
+
+# Fichiers générés automatiquement
+*.pyc
+*.pyo
+*.pyd
+
+# Dossiers système
+.idea/
+.vscode/
+.DS_Store
